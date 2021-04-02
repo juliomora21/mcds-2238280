@@ -15,6 +15,7 @@ class GameSeeder extends Seeder
      */
     public function run()
     {
+    
         // Creacion de semilla de Metodo Insert...
         DB::table('games')->insert([
         	'name'        => "Luigi's Mansion 3",
